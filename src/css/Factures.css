@@ -1,0 +1,123 @@
+.mockupee1 {
+    width: 250px;
+    height: 200px;
+    background-color: #ffee32c5;
+    box-shadow: 5px 10px 10px #596475;
+    border-radius: 30px 30px 30px 30px;
+    color: black;
+}
+
+.mockupee2 {
+    width: 250px;
+    height: 200px;
+    background-color: #ffee32c5;
+    box-shadow: 5px 10px 10px #596475;
+    border-radius: 30px 30px 30px 30px;
+}
+
+.mockupee3 {
+    width: 250px;
+    height: 200px;
+    background-color: #ffee32c5;
+    box-shadow: 5px 10px 10px #596475;
+    border-radius: 30px 30px 30px 30px;
+}
+
+.mockupee4 {
+    width: 250px;
+    height: 200px;
+    background-color: #ffee32c5;
+    box-shadow: 5px 10px 10px #596475;
+    border-radius: 30px 30px 30px 30px;
+}
+
+.mockupee5 {
+    width: 250px;
+    height: 200px;
+    background-color: #ffee32c5;
+    box-shadow: 5px 10px 10px #596475;
+    border-radius: 30px 30px 30px 30px;
+}
+
+.mockupee6 {
+    width: 250px;
+    height: 200px;
+    background-color: #ffee32c5;
+    box-shadow: 5px 10px 10px #596475;
+    border-radius: 30px 30px 30px 30px;
+}
+
+.mockupeefle {
+    display: grid;
+    grid-template-columns: 300px 300px auto;
+    column-gap: 15px;
+    row-gap: 100px;
+    position: relative;
+    left: 400px;
+    top: 50px
+}
+
+.mockupee1 h1 {
+    font-family: Open sans;
+    font-size: 20px;
+    font-weight: lighter;
+    position: relative;
+    text-align: right;
+    top: 20px;
+    right: 20px;
+}
+
+#btn {
+    background: #14c6dab9;
+    height: 40px;
+    width: 80px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 13px;
+    font-family: Open sans;
+    position: relative;
+    transition: 1s;
+    -webkit-tap-highlight-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding-top: 5px;
+    top: -50px;
+    left: 160px;
+}
+
+#btn #circle {
+    width: 5px;
+    height: 5px;
+    background: transparent;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    overflow: hidden;
+    transition: 500ms;
+}
+
+.noselect {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#btn:hover {
+    background: #146adab0;
+}
+
+#btn:hover #circle {
+    height: 50px;
+    width: 80px;
+    left: 0;
+    border-radius: 0;
+    border-bottom: 2px solid black;
+    color: #14c6dab9;
+}

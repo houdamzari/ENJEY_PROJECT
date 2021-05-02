@@ -1,0 +1,100 @@
+.illu {
+    position: relative;
+    left: 800px;
+    top: 60px;
+    height: 300px;
+}
+
+.titleconso {
+    font-family: MV Boli;
+    font-size: 20px;
+    width: 100%;
+    font-weight: lighter;
+    margin-left: 370px;
+    margin-top: -150px;
+    color: #818181;
+}
+
+.btns {
+    display: flex;
+    flex-direction: row;
+    width: 600px;
+    margin-left: 600px;
+    margin-top: 100px;
+    gap: 100px;
+}
+
+.kwh {
+    width: 200px;
+    height: 40px;
+    border-radius: 30px 30px 30px 30px;
+    background-color: white;
+    box-shadow: 5px 10px 8px #888888;
+}
+
+#but {
+    background: #14c6dab9;
+    height: 40px;
+    width: 80px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 13px;
+    font-family: Open sans;
+    position: relative;
+    transition: 1s;
+    -webkit-tap-highlight-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding-top: 5px;
+}
+
+#but #circle {
+    width: 5px;
+    height: 5px;
+    background: transparent;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    overflow: hidden;
+    transition: 500ms;
+}
+
+.noselect {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#but:hover {
+    background: #146adab0;
+}
+
+#but:hover #circle {
+    height: 50px;
+    width: 80px;
+    left: 0;
+    border-radius: 0;
+    border-bottom: 2px solid black;
+    color: #14c6dab9;
+}
+
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: transparent;
+    background-image: url("../images/arrow.png");
+    background-repeat: no-repeat;
+    background-position-x: 90%;
+    background-position-y: 17px;
+    border-radius: 2px;
+    margin-right: 2rem;
+    padding: 1rem;
+    padding-right: 2rem;
+}

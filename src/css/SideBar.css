@@ -1,0 +1,241 @@
+        .sidebar {
+            height: 100%;
+            /* Full-height: remove this if you want "auto" height */
+            width: 350px;
+            /* Set the width of the sidebar */
+            position: fixed;
+            /* Fixed Sidebar (stay in place on scroll) */
+            z-index: 1;
+            /* Stay on top */
+            top: 0;
+            /* Stay at the top */
+            left: 0;
+            background-color: #32e0c4;
+            /* Black */
+            overflow-x: hidden;
+            /* Disable horizontal scroll */
+            padding-top: 20px;
+            border-radius: 0 10% 10% 0;
+        }
+
+        /* The navigation menu links */
+
+        .sidebar ul {
+            list-style: none;
+            padding-left: 0%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center !important;
+            align-content: space-between;
+            gap: 17px;
+            margin-top: 10%;
+        }
+
+        .sidebar li a {
+            padding: 40px 60px 20px 16px;
+            text-decoration: none;
+            font-size: 25px;
+            color: #818181;
+            font-size: 20px;
+            font-family: Open Sans;
+        }
+
+        .sidebar li {
+            display: flex;
+            flex-direction: row;
+            gap: 20px !important;
+            width: 100%;
+            padding-left: 10%;
+            margin-top: -20px;
+        }
+
+        .sidebar li:hover {
+            background-color: #087e8b;
+            opacity: 70%;
+        }
+
+        /* When you mouse over the navigation links, change their color */
+
+        .sidebar a:hover {
+            color: #f1f1f1;
+        }
+
+        /* Style page content */
+
+        .main {
+            margin-left: 160px;
+            /* Same as the width of the sidebar */
+            padding: 0px 10px;
+        }
+
+        /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+
+        @media screen and (max-height: 450px) {
+            .sidebar {
+                padding-top: 15px;
+            }
+
+            .sidebar a {
+                font-size: 30px;
+            }
+        }
+
+        .logo {
+            height: 100px;
+            width: 100px;
+        }
+
+        .logoname {
+            font-family: SimSun-ExtB;
+            color: white;
+            width: 50%;
+            margin-top: 32px;
+            font-size: 40px;
+        }
+
+        .logoshit {
+            display: flex !important;
+            flex-direction: row !important;
+            gap: 20px;
+            margin-top: -20px;
+        }
+
+        .icons {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .icond {
+            width: 50px;
+            height: 50px;
+            position: relative;
+            top: 20px;
+        }
+
+        .iconf {
+            width: 40px;
+            height: 40px;
+            position: relative;
+            top: 25px;
+        }
+
+        .iconc,
+        .iconr {
+            width: 40px;
+            height: 40px;
+            position: relative;
+            top: 30px;
+        }
+
+        .iconq {
+            width: 40px;
+            height: 40px;
+            position: relative;
+            top: 30px;
+        }
+
+        .mockup1 {
+            width: 350px;
+            height: 200px;
+            background-color: #d0d3d570;
+            box-shadow: 5px 10px 10px #596475;
+            border-radius: 30px 30px 30px 30px;
+            margin-left: 400px;
+            color: black;
+        }
+
+        .mockup2 {
+            width: 350px;
+            height: 200px;
+            background-color: #d0d3d570;
+            box-shadow: 5px 10px 10px #596475;
+            border-radius: 30px 30px 30px 30px;
+            margin-left: 100px;
+        }
+
+        .mockupflex {
+            display: flex;
+            flex-direction: row;
+            gap: 100px;
+        }
+
+        .mockup4 {
+            width: 350px;
+            height: 200px;
+            background-color: #d0d3d570;
+            box-shadow: 5px 10px 10px #596475;
+            border-radius: 30px 30px 30px 30px;
+            margin-left: 400px;
+        }
+
+        .mockup5 {
+            width: 350px;
+            height: 200px;
+            background-color: #d0d3d570;
+            box-shadow: 5px 10px 10px #596475;
+            border-radius: 30px 30px 30px 30px;
+            margin-left: 100px;
+        }
+
+        .mockup3 {
+            width: 920px;
+            height: 400px;
+            background-color: #d0d3d570;
+            box-shadow: 5px 10px 10px #596475;
+            border-radius: 30px 30px 30px 30px;
+            margin-left: 400px;
+            margin-top: 20px;
+        }
+
+        .mockupflex2 {
+            display: flex;
+            flex-direction: row;
+            gap: 100px;
+            margin-top: 20px;
+        }
+
+        .titles {
+            font-family: Open Sans;
+            font-size: 20px;
+            color: rgb(0, 0, 0) !important;
+            opacity: 90%;
+            position: relative;
+            text-align: right;
+            margin-top: 20px;
+            margin-right: 20px;
+        }
+
+        .iconm {
+            width: 60px;
+            height: 60px;
+            margin-top: 10px;
+            margin-left: 30px;
+        }
+
+        .iconm2 {
+            width: 70px;
+            height: 70px;
+            margin-top: 10px;
+            margin-left: 30px;
+        }
+
+        .iconm4 {
+            width: 60px;
+            height: 60px;
+            margin-left: 30px;
+        }
+
+        .iconm5 {
+            width: 60px;
+            height: 60px;
+            margin-top: 25px;
+            margin-left: 40px;
+        }
+
+        .mini {
+            width: 200px;
+            font-size: 25px;
+            color: #32e0c4;
+            margin-left: 200px;
+            margin-top: -40px;
+        }

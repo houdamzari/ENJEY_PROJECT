@@ -1,0 +1,140 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 300px;
+}
+
+.box123 {
+    width: 290px;
+    height: 30px;
+    background-color: #faf088;
+    box-shadow: 5px 10px 10px #596475;
+    border-radius: 30px 30px 30px 30px;
+    font-family: Open sans;
+    font-weight: lighter;
+    text-align: center!important;
+    justify-content: center!important;
+    position: relative;
+    left: 500px;
+    top: 20px;
+    vertical-align: middle;
+}
+
+.circle {
+    background-color: bisque;
+    border-radius: 50%;
+    margin-left: 400px;
+    margin-top: 40px;
+    width: 150px;
+    height: 150px;
+    display: block;
+}
+
+.description {
+    position: relative;
+    left: 400px;
+    top: 30px;
+}
+
+.grid-container2 {
+    display: grid;
+    grid-template-columns: 300px;
+    row-gap: 15px;
+}
+
+.boxx {
+    width: 130px;
+    height: 20px;
+    background-color: #88fab7d8;
+    box-shadow: 5px 10px 10px #596475;
+    border-radius: 30px 30px 30px 30px;
+    font-family: Open sans;
+    font-weight: lighter;
+    text-align: center!important;
+    position: relative;
+    left: 600px;
+    top: 25px;
+    opacity: 50%;
+}
+
+.leboxe2 {
+    width: 95px;
+    height: 20px;
+    background-color: #f700004f;
+    box-shadow: 5px 10px 10px #596475;
+    border-radius: 30px 30px 30px 30px;
+    font-family: Open sans;
+    font-weight: lighter;
+    margin-left: 1100px;
+    margin-top: -30px;
+}
+
+.leboxe {
+    width: 200px;
+    height: 20px;
+    background-color: #faf088;
+    box-shadow: 5px 10px 10px #596475;
+    border-radius: 30px 30px 30px 30px;
+    font-family: Open sans;
+    font-weight: lighter;
+    text-align: center;
+    margin-left: 780px;
+    margin-top: -400px;
+    padding: 10px;
+}
+
+.kindainput {
+    width: 200px;
+    height: 30px;
+    background-color: #fffffff3;
+    box-shadow: 5px 10px 10px #596475;
+    border-radius: 30px 30px 30px 30px;
+    font-family: Open sans;
+    font-weight: lighter;
+    position: relative;
+    left: 900px;
+    top: 80px;
+}
+
+p {
+    position: relative;
+    left: 800px;
+    top: 20px;
+    font-family: Open sans;
+    font-weight: lighter;
+}
+
+#butto {
+    font-family: Open sans;
+    background: #ffee32;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 25px;
+    border: 0;
+    transition: all 0.5s;
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+    position: relative;
+    left: 950px;
+    top: 150px;
+}
+
+#butto::after {
+    content: ' \00BB';
+    font-family: "Open sans";
+    position: absolute;
+    opacity: 0;
+}
+
+#butto:hover {
+    background: #2b2bff;
+    transition: all 0.5s;
+    border-radius: 10px;
+    box-shadow: 0px 6px 15px #0000ff61;
+    padding-right: 20px;
+}
+
+#butto:hover::after {
+    opacity: 1;
+    transition: all 0.5s;
+}

@@ -1,0 +1,100 @@
+.regrid {
+    display: grid;
+    grid-template-columns: 500px 500px;
+    grid-template-rows: 30px 30px 30px 30px;
+    column-gap: 40px !important;
+    row-gap: 80px !important;
+}
+
+.regridd {
+    background-color: #ffff62;
+    border-radius: 30px !important;
+    box-shadow: 5px 10px 10px #596475b9;
+    position: relative;
+    left: 400px;
+    width: 300px;
+    height: 100px;
+    top: 70px;
+}
+.regridd:hover{
+    cursor: pointer;
+    transform: scale(1.2);}
+
+.regrid h2 {
+    font-weight: lighter;
+    font-size: 15px;
+    font-family: Open sans;
+    text-align: center;
+    margin-top: 13px
+}
+
+#lenom {
+    background-color: #ffff62;
+    border-radius: 30px !important;
+    box-shadow: 5px 10px 10px #596475b9;
+    position: relative;
+    left: 600px;
+    width: 400px;
+    height: 40px;
+    top: 10px;
+    line-height: 40px;
+}
+
+#lesujet {
+    background-color: #ffff62;
+    border-radius: 30px !important;
+    box-shadow: 5px 10px 10px #596475b9;
+    position: relative;
+    left: 600px;
+    width: 400px;
+    height: 40px;
+    top: 10px;
+    line-height: 40px;
+}
+
+#lareclammation {
+    background-color: #ffffff2d;
+    border-radius: 30px !important;
+    box-shadow: 5px 10px 10px #596475b9;
+    position: relative;
+    left: 600px;
+    width: 400px;
+    height: 300px;
+    top: 10px;
+}
+
+#leboutton {
+    font-family: Open sans;
+    background: #ffee32;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 25px;
+    border: 0;
+    transition: all 0.5s;
+    border-radius: 10px;
+    width: 100px;
+    height: 40px;
+    position: relative;
+    left: 740px;
+    top: 30px;
+}
+
+#leboutton::after {
+    content: ' \00BB';
+    font-family: "Open sans";
+    position: absolute;
+    opacity: 0;
+}
+
+#leboutton:hover {
+    background: #2b2bff;
+    transition: all 0.5s;
+    border-radius: 10px;
+    box-shadow: 0px 6px 15px #0000ff61;
+    padding-right: 20px;
+}
+
+#leboutton:hover::after {
+    opacity: 1;
+    transition: all 0.5s;
+}

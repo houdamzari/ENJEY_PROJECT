@@ -1,0 +1,103 @@
+.container {
+    background-image: url("../images/Opa.png");
+    background-repeat: no-repeat;
+    background-position: absolute;
+    width: 1400px;
+    height: 550px;
+    overflow: hidden;
+}
+
+.loginform {
+    width: 600px;
+    height: 450px;
+    position: center;
+    background-color: white;
+    border-radius: 30px 30px 30px 30px;
+    margin-top: 100px;
+    margin-left: 370px;
+}
+
+.spic {
+    width: 300px;
+    height: 350px;
+    background-image: url("../images/spic.jpg");
+    border-radius: 30px 0 0 30px;
+    position: relative;
+}
+
+.inputs {
+    width: 200px;
+    height: 40px;
+    border-radius: 30px 30px 30px 30px;
+    background-color: #ebece6;
+    box-shadow: 5px 10px 8px #888888;
+}
+
+.inputs2 {
+    width: 200px;
+    height: 40px;
+    border-radius: 30px 30px 30px 30px;
+    background-color: #ebece6;
+    box-shadow: 5px 10px 8px #888888;
+}
+
+.send {
+    font-family: Open sans;
+    background: rgba(255, 238, 50, 0.74);
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 20px;
+    border: 0;
+    transition: all 0.5s;
+    border-radius: 10px;
+    width: 140px;
+    position: relative;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+.send::after {
+    font-family: "Open sans";
+    position: absolute;
+    left: 85%;
+    top: 31%;
+    right: 5%;
+    bottom: 0;
+    opacity: 0;
+}
+
+.send:hover {
+    background: #2b2bff;
+    transition: all 0.5s;
+    border-radius: 10px;
+    box-shadow: 0px 6px 15px #0000ff61;
+}
+
+.send:hover::after {
+    opacity: 1;
+    transition: all 0.5s;
+}
+
+h3 {
+    width: 200px;
+    font-family: Open sans;
+    font-weight: lighter;
+    font-size: 15px;
+    color: #707070;
+}
+
+.form {
+    position: relative;
+    top: -350px;
+    left: 340px;
+}
+
+h4 {
+    font-family: MV Boli;
+    font-weight: lighter;
+    font-size: 15px;
+    color: #707070;
+    position: relative;
+    text-align: center;
+    right: 110px;
+}

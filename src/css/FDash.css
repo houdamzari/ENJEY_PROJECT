@@ -1,0 +1,96 @@
+.mockup11 {
+    width: 350px !important;
+    height: 200px;
+    background-color: #fbf3a3;
+    box-shadow: 5px 10px 10px #596475;
+    border-radius: 30px 30px 30px 30px;
+    color: black;
+}
+
+.mockup22 {
+    width: 350px;
+    height: 200px;
+    background-color: #fbf3a3;
+    box-shadow: 5px 10px 10px #596475;
+    border-radius: 30px 30px 30px 30px;
+}
+
+.mockupflexx {
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+    margin-top: 30px;
+    margin-left: 400px;
+}
+
+.mockup33 {
+    width: 350px;
+    height: 200px;
+    background-color: #fbf3a3;
+    box-shadow: 5px 10px 10px #596475;
+    border-radius: 30px 30px 30px 30px;
+}
+
+.mockup44 {
+    width: 350px;
+    height: 200px;
+    background-color: #fbf3a3;
+    box-shadow: 5px 10px 10px #596475;
+    border-radius: 30px 30px 30px 30px;
+}
+
+.mockupflexx2 {
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+    margin-top: 80px;
+    margin-left: 400px;
+}
+
+.mockup11:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.mockup22:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.mockup33:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.mockup44:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.titless {
+    font-family: Open Sans;
+    font-size: 20px;
+    color: rgb(0, 0, 0) !important;
+    opacity: 90%;
+    position: relative;
+    text-align: right;
+    font-weight: lighter;
+    right: 60px;
+    top: 40px;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+}
+
+.iconm,
+.iconm2,
+.iconm3,
+.iconm4 {
+    width: 70px;
+    height: 70px;
+    position: relative;
+    left: 30px;
+    top: -10px;
+}

@@ -1,0 +1,72 @@
+.addfield {
+    width: 300px;
+    height: 40px;
+    background-color: #ffffff;
+    border-radius: 30px !important;
+    box-shadow: 5px 10px 10px #596475b9;
+}
+
+.grid_time {
+    display: grid;
+    grid-template-columns: 400px;
+    grid-template-rows: 30px 30px 30px 30px 30px 30px;
+    column-gap: 200px !important;
+    row-gap: 70px;
+    margin-left: 400px;
+}
+
+.grid_time2 {
+    display: grid;
+    grid-template-columns: 400px;
+    grid-template-rows: 30px 30px 30px 30px 30px 30px;
+    column-gap: 200px !important;
+    row-gap: 70px;
+    margin-top: -530px;
+    margin-left: 900px;
+}
+
+.addtext {
+    font-weight: lighter;
+    font-size: 20px;
+    position: relative;
+    top: 10px;
+    color: #818181;
+    font-weight: lighter;
+    font-family: Open sans;
+}
+
+.bott {
+    font-family: Open sans;
+    background: #ffee32;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 25px;
+    border: 0;
+    transition: all 0.5s;
+    border-radius: 10px;
+    width: 100px;
+    height: 40px;
+    position: relative;
+    left: 1000px;
+    top: -50px;
+}
+
+.bott::after {
+    content: ' \00BB';
+    font-family: "Open sans";
+    position: absolute;
+    opacity: 0;
+}
+
+.bott:hover {
+    background: #2b2bff;
+    transition: all 0.5s;
+    border-radius: 10px;
+    box-shadow: 0px 6px 15px #0000ff61;
+    padding-right: 20px;
+}
+
+.bott:hover::after {
+    opacity: 1;
+    transition: all 0.5s;
+}

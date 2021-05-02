@@ -1,0 +1,94 @@
+  .container {
+      background-image: url("../images/Opa.png");
+      background-repeat: no-repeat;
+      background-position: absolute;
+      width: 100vw;
+      height: 100vh;
+      overflow: hidden;
+  }
+
+  Link a {
+      text-decoration: none;
+  }
+
+  .btn-1 {
+      font-family: Open sans;
+      background: #ffee32;
+      color: #ffffff;
+      cursor: pointer;
+      font-size: 2em;
+      padding: 1.5rem;
+      border: 0;
+      transition: all 0.5s;
+      border-radius: 10px;
+      width: 600px;
+      position: relative;
+      top: 300px;
+      left: 200px;
+  }
+
+  .btn-1::after {
+      content: ">";
+      font-family: "Open sans";
+      font-weight: 400;
+      position: absolute;
+      left: 85%;
+      top: 31%;
+      right: 5%;
+      bottom: 0;
+      opacity: 0;
+  }
+
+  .btn-1:hover {
+      background: #2b2bff;
+      transition: all 0.5s;
+      border-radius: 10px;
+      box-shadow: 0px 6px 15px #0000ff61;
+      padding: 1.5rem 3.5rem 1.5rem 1.5rem;
+  }
+
+  .btn-1:hover::after {
+      opacity: 1;
+      transition: all 0.5s;
+  }
+
+  .btn-2 {
+      font-family: Open sans;
+      background: #ffee32;
+      color: #ffffff;
+      cursor: pointer;
+      font-size: 2em;
+      padding: 1.5rem;
+      border: 0;
+      transition: all 0.5s;
+      border-radius: 10px;
+      width: 600px;
+      position: relative;
+      top: 300px;
+      left: 400px;
+  }
+
+  .btn-2::after {
+      content: ">";
+      font-family: "Open sans";
+      font-weight: 400;
+      position: absolute;
+      left: 85%;
+      top: 31%;
+      right: 5%;
+      bottom: 0;
+      opacity: 0;
+  }
+
+  .btn-2:hover {
+      background: #2b2bff;
+      transition: all 0.5s;
+      border-radius: 10px;
+      box-shadow: 0px 6px 15px #0000ff61;
+      padding: 1.5rem 3.5rem 1.5rem 1.5rem;
+  }
+
+  .btn-2:hover::after {
+      opacity: 1;
+      transition: all 0.5s;
+  }
